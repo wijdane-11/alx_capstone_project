@@ -3,17 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Personal Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my personal portfolio website! I'm passionate about technology and enjoy creating innovative solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Flask</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Personal Website</h3>
+                <p>A personal website showcasing my skills and projects. Built with HTML, CSS, and JavaScript.</p>
+                <a href="#">Demo</a>
+                <a href="#">Source Code</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
-            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
-            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea><br>
-            <button type="submit">Send</button>
-        </form>
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </section>
 
     <script src="script.js"></script>
