@@ -1,9 +1,9 @@
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #aaa;
 }
 
 .container {
@@ -13,75 +13,75 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #333;
+    color: #999;
 }
 
 p {
-    color: #666;
+    color: #977497;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #7fc73b;
     color: #fff;
     padding: 20px;
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: var(#977497);
 }
 
 /* Navigation styles */
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 10;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display:inline;
+    margin-right: 20rcap;
 }
 
 nav ul li a {
-    color: #fff;
+    color: maroon;
     text-decoration: none;
 }
 
 /* Section styles */
 section {
     padding: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: beige;
+    border-radius: 40px;
 }
 
 section h2 {
-    color: #333;
+    color: #977497;
 }
 
 section p {
-    color: #666;
+    color: navy;
 }
 
 /* Project styles */
 .project {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 20px solid burlywood;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
 .project h3 {
-    color: #333;
+    color: #0056b3;
 }
 
 .project p {
-    color: #666;
+    color: #111;
 }
 
 .project a {
     color: #007bff;
-    text-decoration: none;
+    text-decoration: olivedrab;
 }
 
 .project a:hover {
@@ -90,7 +90,7 @@ section p {
 
 /* Form styles */
 form {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
