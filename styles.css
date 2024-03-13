@@ -1,87 +1,87 @@
 /* Global styles */
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #aaa;
+    margin: 8;
+    padding: 9;
+    background-color: #eed5d5;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 2000px;
+    margin: 10 auto;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #999;
+    color: #e48d8d;
 }
 
 p {
-    color: #977497;
+    color: #b17878;
 }
 
 /* Header styles */
 header {
-    background-color: #7fc73b;
-    color: #fff;
-    padding: 20px;
+    background-color: #af8989;
+    color: #a07d7d;
+    padding: 10px;
 }
 
 .logo {
     font-size: 40px;
-    font-weight: var(#977497);
+    font-weight: bold;
 }
 
 /* Navigation styles */
 nav ul {
     list-style: none;
-    padding: 10;
+    padding: 50;
 }
 
 nav ul li {
-    display:inline;
-    margin-right: 20rcap;
+    display: inline;
+    margin-right: 80px;
 }
 
 nav ul li a {
-    color: maroon;
+    color: #320ae6;
     text-decoration: none;
 }
 
 /* Section styles */
 section {
-    padding: 20px;
-    margin-bottom: 30px;
-    background-color: beige;
-    border-radius: 40px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #f3ebf3;
+    border-radius: 30px;
 }
 
 section h2 {
-    color: #977497;
+    color: #cf6e8e;
 }
 
 section p {
-    color: navy;
+    color: #303050;
 }
 
 /* Project styles */
 .project {
-    border-bottom: 20px solid burlywood;
+    border-bottom: 1px solid #5f2d2d;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
 .project h3 {
-    color: #0056b3;
+    color: #462929;
 }
 
 .project p {
-    color: #111;
+    color: #292849;
 }
 
 .project a {
     color: #007bff;
-    text-decoration: olivedrab;
+    text-decoration: none;
 }
 
 .project a:hover {
@@ -90,7 +90,7 @@ section p {
 
 /* Form styles */
 form {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -98,15 +98,15 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #6d4b4b;
     border-radius: 5px;
 }
 
 input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #52657a;
+    color: #596b54;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
